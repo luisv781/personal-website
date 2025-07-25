@@ -1,0 +1,56 @@
+.section1, .section2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section1 {
+    background-color: #334;
+}
+.section1 h1 {
+    margin: 20px auto;
+    font-size: 4em;
+}
+
+h2 {
+    margin: 20px auto;
+    font-size: 2.4em;
+}
+
+.section2 {
+    background-color: #223;
+}
+
+.vbar {
+    height: 400px;
+    border: 1px solid #767;
+    align-self: center;
+}
+
+.interests {
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+}
+.interests img {
+    width: 60%;
+}
+.interests h3 {
+    font-size: 1.8em;
+}
+
+.skills img {
+    width: 25%;
+}
+
+.interest {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 64px;
+}
+.interest p {
+    font-size: 1.2em;
+    text-align: center;
+    max-width: 90%;
+}
