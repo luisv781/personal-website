@@ -12,8 +12,10 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 14px 20px;
     gap: 32rem;
+    padding: 14px 20px;
+    position: sticky;
+    top: 0;
     
     background-color: #223;
 }
