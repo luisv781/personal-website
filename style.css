@@ -17,7 +17,7 @@ a {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    gap: 32rem;
+    gap: 32em;
     padding: 14px 20px;
     position: sticky;
     top: 0;
@@ -39,5 +39,16 @@ footer {
     justify-content: space-between;
     align-items: center;
     padding: 8px 32px;
+}
+
+@media screen and (max-width: 1280px) {
+    .navigation {
+        gap: 4em;
+    }
+}
+@media screen and (max-width: 840px) {
+    .navigation .nav-links {
+        display: none;
+    }
 }
 

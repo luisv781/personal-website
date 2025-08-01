@@ -17,7 +17,7 @@ h2 {
     position: relative;
     background-color: transparent;
     text-align: center;
-    padding: 3em 0;
+    padding: 3.5em 0;
 }
 .banner::before {
     content: "";
@@ -90,7 +90,9 @@ h2 {
 .interests h3 {
     margin-top: 0.8em;
     margin-bottom: 0;
+
     font-size: 1.8em;
+    text-align: center;
 }
 .interests p {
     margin: 0.8em auto;
@@ -136,4 +138,10 @@ h2 {
 }
 .popup img {
     filter: drop-shadow(0 0 2em #ffc);
+}
+
+@media screen and (max-width: 1000px) {
+    .interests img {
+        max-width: 80%;
+    }
 }
