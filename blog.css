@@ -1,0 +1,28 @@
+h1 {
+    margin: 20px auto;
+    font-size: 4em;
+    text-align: center;
+}
+
+article {
+    display: flex;
+    max-height: 18em;
+    background-color: #222233aa;
+    padding: 1em 3em;
+}
+article div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+article h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+article img {
+    max-height: 12em;
+    margin: 2em;
+
+    border-radius: 2em;
+}
+

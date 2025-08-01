@@ -28,6 +28,10 @@ a {
 .navigation h1 {
     margin: 0;
     font-size: 2.5em;
+    transition: all 0.3s ease-in-out;
+}
+.navigation h1:hover {
+    filter: drop-shadow(0 0 0.2em #ffddffaa);
 }
 .navigation .nav-links a {
     font-size: 1.4em;
