@@ -11,6 +11,9 @@ bannerIcon.onclick = function(event) {
     setTimeout(() => {
         popup.style.height = "100%";
         popup.style.width = "100%";
+
+        let audio = new Audio("audio/vine-boom.mp3");
+        audio.play();
     });
     setTimeout(() => {
         popup.style.height = "0";
