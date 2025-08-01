@@ -1,25 +1,31 @@
-.section1, .section2 {
+section {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.section1 {
-    background-color: #334;
-}
-.section1 h1 {
+h1 {
     margin: 20px auto;
-    font-size: 6em;
+    font-size: 8em;
 }
-
 h2 {
     margin: 20px auto;
     font-size: 2.4em;
 }
 
+.banner {
+    background-color: #445;
+    text-align: center;
+    padding: 8em 0;
+}
+
+.section1 {
+    background-color: #334;
+}
 .section2 {
     background-color: #223;
 }
+
 
 .vbar {
     margin: 10px 0;
